@@ -4,8 +4,9 @@
   "description": "A simple bolierplate for react app",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "start": "serve -s build"
   },
   "author": "Jedidiah Jeyaraj",
   "license": "ISC",
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "serve": "^10.0.1"
   }
 }
